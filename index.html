@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E commerce</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- <link rel="stylesheet" href="css/test.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2847dc523c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- sidevar -->
+  <div id="mySidenav" class="sidenav">
+    <i class="fa-solid fa-xmark" class="closebtn" onclick="closeNav()"></i>
+    <a href="#home" onclick="closeNav()">Home</a>
+    <a href="#featured" onclick="closeNav()">Featured</a>
+    <a href="#new-products" onclick="closeNav()">shop</a>
+    <a href="#blog" onclick="closeNav()">blog</a>
+    <a href="#about" onclick="closeNav()">about</a>
+    <a href="#contact" onclick="closeNav()">contact</a>
+  </div>
+  <!-- sidebar -->
+
+  <!-- cart -->
+  <div class="cart" id="myCart">
+    <i class="fa-solid fa-xmark" class="closebtn" onclick="closeCart()"></i>
+    <div class="carts" id="carts">
+    
+    </div>
+  </div>
+  <!-- cart -->
+  <!-- navbar -->
+  <header class="navbar">
+    <nav class="nav">
+      <div class="nav-menue">
+        <i class="fa-solid fa-bars" onclick="openNavbar()"></i>
+        <p style="color: white">Category</p>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+
+      <div class="nav-link">
+        <a href="#home">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#new-products">shop</a>
+        <a href="#blog">blog</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </div>
+
+      <div class="nav-icons">
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-basket-shopping" onclick="openCart()"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar -->
+
+  <!-- hero -->
+  <section class="hero-section" id="home">
+    <div class="hero">
+      <div class="hero-content">
+        <h3>Best Design of Furniture Collection</h3>
+        <p>
+          Improve the atmosphere through interior design that is driven by
+          purposes to bring value into your environment
+        </p>
+        <button class="btn">SHOP NOW</button>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/header-sofa-img.png" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- hero -->
+
+  <!-- new product -->
+  <section class="new-product-section" style="background-color: #FAFAFA; padding: 1rem;" id="new-products" >
+    <div class="new-product">
+      <div class="headers">
+        <h3>Top New Products</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="line"></div>
+      </div>
+      <div class="product-cards" id="product-cards">
+       
+      </div>
+    </div>
+  </section>
+  <!-- new product -->
+  <section>
+    <div class="grid">
+      <div class="grid-item">
+        <img src="assets/category/category_img_1.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+      <div class="grid-item">
+        <img src="assets/category/category_img_2.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+      <div class="grid-item">
+        <img src="assets/category/category_img_3.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+      <div class="grid-item">
+        <img src="assets/category/category_img_4.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+      <div class="grid-item">
+        <img src="assets/category/category_img_5.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+      <div class="grid-item">
+        <img src="assets/category/category_img_6.png" alt="">
+        <div class="grid-category">Sofa Set</div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- featured -->
+  <section class="featured-section" style="background-color: #FAFAFA; padding: 1rem;" id="featured">
+    <div class="featured">
+      <div class="headers">
+        <h3>Featured Deals</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="line"></div>
+      </div>
+      <div class="featured-cards">
+        <div class="featured-card">
+          <img src="./assets/featured/featured_deals_img_1.png" alt="" />
+          <div class="featured-card-body">
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>(10 Reviews)</p>
+            </div>
+            <p class="featured-des">Decor For Drawing Room</p>
+            <p class="amount"><span>$50.00 </span> $35.00</p>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <img src="./assets/featured/featured_deals_img_2.png" alt="" />
+          <div class="featured-card-body">
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>(10 Reviews)</p>
+            </div>
+            <p class="featured-des">Decor For Drawing Room</p>
+            <p class="amount"><span>$ 50.00 </span> $ 35.00</p>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <img src="./assets/featured/featured_deals_img_3.png" alt="" />
+          <div class="featured-card-body">
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>(10 Reviews)</p>
+            </div>
+            <p class="featured-des">Decor For Drawing Room</p>
+            <p class="amount"><span>$ 50.00 </span> $ 35.00</p>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <img src="./assets/featured/featured_deals_img_4.png" alt="" />
+          <div class="featured-card-body">
+            <div class="review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>(10 Reviews)</p>
+            </div>
+            <p class="featured-des">Decor For Drawing Room</p>
+            <p class="amount"><span>$ 50.00 </span> $ 35.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="mid">
+    <img src="assets/catalog_img.png" alt="">
+    <div>
+      <h3>Modern Living Quarters</h3>
+      <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eaque doloribus, repellat
+        dolor nisi nihil facilis voluptatibus porro deleniti recusandae?</p>
+      <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi distinctio
+        corporis pariatur excepturi minima!</p>
+    </div>
+  </section> -->
+  <!-- featured -->
+  <!-- news -->
+  <section class="news-section" style="background-color: #FAFAFA; padding: 1rem;" id="blog">
+    <div class="news">
+      <div class="headers">
+        <h3>Latest News</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="line"></div>
+      </div>
+      <div class="news-cards">
+
+        <div class="news-card">
+          <img src="./assets/news/latest_news_img_1.png" alt="" />
+          <div class="news-card-body">
+            <p class="news-date">Posted October 8, 2021</p>
+            <h4 class="news-header" style="margin-top: 10px;">CHEAP BUDGET HOTEL ROOMS</h4>
+            <p class="news-content" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Vel, veritatis ...</p>
+            <div class="news-img">
+              <img src="assets/news/author-1.jpg" class="news-author" alt="">
+            </div>
+          </div>
+          <h5 class="readMore">READ MORE</h5>
+        </div>
+
+        <div class="news-card">
+          <img src="./assets/news/latest_news_img_2.png" alt="" />
+          <div class="news-card-body">
+            <p class="news-date">Posted October 8, 2021</p>
+            <h4 class="news-header" style="margin-top: 10px;">CHEAP BUDGET HOTEL ROOMS</h4>
+            <p class="news-content" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Vel, veritatis ...</p>
+            <div class="news-img">
+              <img src="assets/news/author-2.jpg" class="news-author" alt="">
+            </div>
+          </div>
+          <h5 class="readMore">READ MORE</h5>
+        </div>
+
+        <div class="news-card">
+          <img src="./assets/news/latest_news_img_3.png" alt="" />
+          <div class="news-card-body">
+            <p class="news-date">Posted October 8, 2021</p>
+            <h4 class="news-header" style="margin-top: 10px;">CHEAP BUDGET HOTEL ROOMS</h4>
+            <p class="news-content" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Vel, veritatis ...</p>
+            <div class="news-img">
+              <img src="assets/news/author-3.jpg" class="news-author" alt="">
+            </div>
+          </div>
+          <h5 class="readMore">READ MORE</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- news -->
+
+  <!-- feedback -->
+  <section class="feedback-section" style="background-color: #FAFAFA; padding: 1rem;" id="blog">
+    <div class="feedback">
+      <div class="headers">
+        <h3>Feedback</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="line"></div>
+      </div>
+      <div class="feedback-cards">
+
+        <div class="feedback-card">
+          <img src="./assets/quote-icon-dark.png" class="quote" alt="" />
+          <div class="feedback-card-body">
+            <p class="feedback-content" style="margin-top: 10px; text-align: center;">Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Ea corporis delectus, eaque consectetur ullam rerum?</p>
+            <div class="feedback-img">
+              <img src="assets/clients/client-1.jpg" class="feedback-author" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-card" style="background-color: #ef8b59;">
+          <img src="./assets/quote-icon.png" class="quote" alt="" />
+          <div class="feedback-card-body" style="background-color: #ef8b59;">
+            <p class="feedback-content" style="margin-top: 10px; text-align: center; color: white;">Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+              Ea corporis delectus, eaque consectetur ullam rerum?</p>
+            <div class="feedback-img">
+              <img src="assets/clients/client-2.jpg" class="feedback-author" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-card">
+          <img src="./assets/quote-icon-dark.png" class="quote" alt="" />
+          <div class="feedback-card-body">
+            <p class="feedback-content" style="margin-top: 10px; text-align: center;">Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Ea corporis delectus, eaque consectetur ullam rerum?</p>
+            <div class="feedback-img">
+              <img src="assets/clients/client-3.jpg" class="feedback-author" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- feedback -->
+
+  <!-- feedback -->
+  <section class="feedback-section" style="background-color: #FAFAFA; padding: 1rem;" id="blog">
+    <div class="feedback">
+      <div class="headers">
+        <h3>Newsletter</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="line"></div>
+      </div>
+      <div class="newsletter-card">
+        <input type="text" class="newsletter-Inp">
+        <button class="newsLetter-btn">SUBSCRIBE</button>
+      </div>
+    </div>
+  </section>
+  <!-- feedback -->
+
+  <!-- footer -->
+  <section class="footer" style="background-color: #F9F3EB;">
+    <div class="footer-sections">
+      <div>
+        <h3>Furnish.com</h3>
+        <p style="margin-top: 10px; font-size: 14px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          dolorem
+          consequuntur saepe tenetur deserunt
+          harum error quae sint voluptas sunt, autem, totam amet officiis nesciunt eos cupiditate ipsa!</p>
+        <div class="footer-icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <div class="footer-link">
+          <a href="#">1203, Falke Street, Drive FL 5766, LA, USA</a>
+          <a href="#">Phone: +474 (4657) 2000</a>
+          <a href="#">Email: info@furnish.com</a>
+        </div>
+      </div>
+      <div>
+        <h3>Recent Post</h3>
+        <div class="footer-link">
+          <a href="#">Rooms decoration package</a>
+          <a href="#">Dinning Materials</a>
+          <a href="#">Event Furniture</a>
+        </div>
+      </div>
+      <div>
+        <h3>Our Portfolio</h3>
+        <div class="footer-link">
+          <a href="#">EFTA Design</a>
+          <a href="#">County Hall Decoration</a>
+          <a href="#">SOO Conference</a>
+          <a href="#">LA Events</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-copy">
+    <div class="footer-copy-content">
+      <p style="color: white;">© Copyright 2021. All Right Reserved. Designed and Developed by Kawsar Ahmed</p>
+      <div class="footer-copy-img">
+        <img src="assets/footer/pay_1.png" alt="">
+        <img src="assets/footer/pay_2.png" alt="">
+        <img src="assets/footer/pay_3.png" alt="">
+        <img src="assets/footer/pay_4.png" alt="">
+        <img src="assets/footer/pay_5.png" alt="">
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

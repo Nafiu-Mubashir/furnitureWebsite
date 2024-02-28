@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/products/new_product_img_1.png",
+    "price": 35.99,
+    "categories": "new",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 2,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/products/new_product_img_2.png",
+    "price": 35.99,
+    "categories": "new",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 3,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/products/new_product_img_3.png",
+    "price": 35.99,
+    "categories": "new",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 4,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/products/new_product_img_4.png",
+    "price": 35.99,
+    "categories": "new",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 5,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/featured/featured_deals_img_1.png",
+    "price": 35.99,
+    "categories": "featured",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 6,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/featured/featured_deals_img_1.png",
+    "price": 35.99,
+    "categories": "featured",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 7,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/featured/featured_deals_img_1.png",
+    "price": 35.99,
+    "categories": "featured",
+    "discount": 5,
+    "rating": 3.5
+  },
+  {
+    "id": 8,
+    "title": "Product 1",
+    "description": "Decor For Drawing Room",
+    "image": "./assets/featured/featured_deals_img_1.png",
+    "price": 35.99,
+    "categories": "featured",
+    "discount": 5,
+    "rating": 3.5
+  }
+]

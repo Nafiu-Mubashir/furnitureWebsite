@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gridder {
+  display: grid;
+  height: 100dvh;
+
+  /* Method 1 */
+  grid-template-areas:
+    'sidebar nav'
+    'sidebar main';
+
+  /* Method 2 */
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: 64px 1fr;
+}
+
+.main-nav {
+  grid-area: nav;
+  align-self: start;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  height: 64px;
+}
+
+.main-side {
+  grid-area: sidebar;
+  background: blue;
+  height: 100%;
+  position: sticky;
+  align-self: start;
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  grid-area: main;
+}
+.main-nav.blue {
+  background-color: blue;
+}
+
+input[type="checkbox"]:checked ~ label{
+  
+}
